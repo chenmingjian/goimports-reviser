@@ -8,14 +8,13 @@ import (
 	"go/parser"
 	"go/printer"
 	"go/token"
+	"goimports-reviser/pkg/astutil"
+	"goimports-reviser/pkg/std"
 	"io/ioutil"
 	"os"
 	"path"
 	"sort"
 	"strings"
-
-	"goimports-reviser/pkg/astutil"
-	"goimports-reviser/pkg/std"
 )
 
 const (
