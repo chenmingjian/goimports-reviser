@@ -106,7 +106,7 @@ func Execute(projectName, filePath, localPkgPrefixes string, options ...Option) 
 		pf.Decls = decls
 	}
 
-	fixImports(pf, stdImports, generalImports, projectLocalPkgs, projectImports, importsWithMetadata)
+	fixImports(pf, stdImports, projectImports, generalImports, projectLocalPkgs, importsWithMetadata)
 
 	formatDecls(pf, options)
 
