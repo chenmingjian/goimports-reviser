@@ -1,4 +1,4 @@
-module  github.com/chenmingjian/goimports-reviser
+module  github.com/chenmingjian/goimports-reviser/v2
 
 go 1.17
 
