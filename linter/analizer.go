@@ -1,3 +1,4 @@
+//go:build linter
 // +build linter
 
 package main
@@ -10,8 +11,8 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/incu6us/goimports-reviser/v2/pkg/module"
-	"github.com/incu6us/goimports-reviser/v2/reviser"
+	"goimports-reviser/pkg/module"
+	"goimports-reviser/reviser"
 )
 
 const errMessage = "imports must be formatted"

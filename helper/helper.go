@@ -3,8 +3,8 @@ package helper
 import (
 	"os"
 
-	"github.com/incu6us/goimports-reviser/v2/pkg/module"
-	"github.com/incu6us/goimports-reviser/v2/reviser"
+	"goimports-reviser/pkg/module"
+	"goimports-reviser/reviser"
 )
 
 func DetermineProjectName(projectName, filePath string) (string, error) {
