@@ -11,8 +11,8 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/chenmingjian/goimports-reviser/v2/pkg/module"
-	"github.com/chenmingjian/goimports-reviser/v2/reviser"
+	"github.com/chenmingjian/goimports-reviser/pkg/module"
+	"github.com/chenmingjian/goimports-reviser/reviser"
 )
 
 const errMessage = "imports must be formatted"

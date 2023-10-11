@@ -1,3 +1,4 @@
+//go:build linter
 // +build linter
 
 package main
@@ -7,7 +8,7 @@ import (
 
 	"golang.org/x/tools/go/analysis/singlechecker"
 
-	"github.com/chenmingjian/goimports-reviser/v2/reviser"
+	"github.com/chenmingjian/goimports-reviser/reviser"
 )
 
 func main() {

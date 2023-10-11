@@ -14,8 +14,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/chenmingjian/goimports-reviser/v2/pkg/astutil"
-	"github.com/chenmingjian/goimports-reviser/v2/pkg/std"
+	"github.com/chenmingjian/goimports-reviser/pkg/astutil"
+	"github.com/chenmingjian/goimports-reviser/pkg/std"
 )
 
 const (

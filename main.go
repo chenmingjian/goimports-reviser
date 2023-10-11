@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chenmingjian/goimports-reviser/v2/helper"
-	"github.com/chenmingjian/goimports-reviser/v2/reviser"
+	"github.com/chenmingjian/goimports-reviser/helper"
+	"github.com/chenmingjian/goimports-reviser/reviser"
 )
 
 const (
